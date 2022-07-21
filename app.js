@@ -49,7 +49,7 @@ client.on('message', message => {
         client.sendMessage(message.from, '!ping - pong\n!joke - joke\n!time - time\n!help - help\n!social - social');
     }
     if(message.body == '!social') {
-        client.sendMessage(message.from, '📸 Instagram: https://www.instagram.com/otallyto/\n🐦 Twitter: https://twitter.com/TallyScript\n');
+        client.sendMessage(message.from, '📸 Instagram: https://www.instagram.com/otallyto/\n🐦 Twitter: https://twitter.com/otallyto\n');
     }   
 });
 
